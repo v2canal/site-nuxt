@@ -13,13 +13,16 @@ module.exports = {
   // add your custom rules here
   rules: {
     'vue/multi-word-component-names': 0,
-    'comma-dangle':'off',
-    'semi':'off',
-    'quotes':'off',
-    "space-before-function-paren": ["warn", {
-      "anonymous": "always",
-      "named": "always",
-      "asyncArrow": "always"
-    }],
+    'comma-dangle': 'off',
+    semi: 'off',
+    quotes: 'off',
+    'space-before-function-paren': [
+      'warn',
+      {
+        anonymous: 'always',
+        named: 'always',
+        asyncArrow: 'always',
+      },
+    ],
   },
 }

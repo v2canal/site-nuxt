@@ -1,11 +1,9 @@
 <template>
-   <div>
-     这里是界面
-   </div>
+  <div>这里是界面</div>
 </template>
 <script>
 export default {
-  layout: 'blog'
+  layout: 'blog',
   // page component definitions
 }
 </script>
