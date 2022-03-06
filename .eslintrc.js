@@ -8,10 +8,18 @@ module.exports = {
     parser: '@babel/eslint-parser',
     requireConfigFile: false,
   },
-  extends: ['@nuxtjs', 'plugin:nuxt/recommended'],
+  extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier'],
   plugins: [],
   // add your custom rules here
   rules: {
-    'vue/multi-word-component-names': 0
+    'vue/multi-word-component-names': 0,
+    'comma-dangle':'off',
+    'semi':'off',
+    'quotes':'off',
+    "space-before-function-paren": ["warn", {
+      "anonymous": "always",
+      "named": "always",
+      "asyncArrow": "always"
+    }],
   },
 }
