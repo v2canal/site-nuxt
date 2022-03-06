@@ -1,0 +1,16 @@
+[
+  {
+    "name": "posts",
+    "path": "/posts",
+    "component": "D:\\\\canal\\\\site-nuxt\\\\pages\\\\posts.vue",
+    "chunkName": "pages/posts",
+    "_name": "_8a4921fe"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\canal\\\\site-nuxt\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_124b8480"
+  }
+]
